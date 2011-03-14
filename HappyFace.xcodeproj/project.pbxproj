@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF7CEDC5132E76C8004C6B50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7CEDC4132E76C8004C6B50 /* Cocoa.framework */; };
+		BF7CEDCF132E76C9004C6B50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF7CEDCD132E76C9004C6B50 /* InfoPlist.strings */; };
+		BF7CEDD2132E76C9004C6B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CEDD1132E76C9004C6B50 /* main.m */; };
+		BF7CEDD5132E76C9004C6B50 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BF7CEDD3132E76C9004C6B50 /* Credits.rtf */; };
+		BF7CEDD8132E76C9004C6B50 /* HappyFaceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CEDD7132E76C9004C6B50 /* HappyFaceAppDelegate.m */; };
+		BF7CEDDB132E76C9004C6B50 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7CEDD9132E76C9004C6B50 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF7CEDC0132E76C8004C6B50 /* HappyFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF7CEDC4132E76C8004C6B50 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BF7CEDC7132E76C8004C6B50 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BF7CEDC8132E76C8004C6B50 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BF7CEDC9132E76C8004C6B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF7CEDCC132E76C8004C6B50 /* HappyFace-Info.plist */ = {isa = PBXFileReference; path = "HappyFace-Info.plist"; sourceTree = "<group>"; };
+		BF7CEDCE132E76C9004C6B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF7CEDD0132E76C9004C6B50 /* HappyFace-Prefix.pch */ = {isa = PBXFileReference; path = "HappyFace-Prefix.pch"; sourceTree = "<group>"; };
+		BF7CEDD1132E76C9004C6B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF7CEDD4132E76C9004C6B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BF7CEDD6132E76C9004C6B50 /* HappyFaceAppDelegate.h */ = {isa = PBXFileReference; path = HappyFaceAppDelegate.h; sourceTree = "<group>"; };
+		BF7CEDD7132E76C9004C6B50 /* HappyFaceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyFaceAppDelegate.m; sourceTree = "<group>"; };
+		BF7CEDDA132E76C9004C6B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF7CEDBD132E76C8004C6B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7CEDC5132E76C8004C6B50 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF7CEDB5132E76C8004C6B50 = {
+			isa = PBXGroup;
+			children = (
+				BF7CEDCA132E76C8004C6B50 /* HappyFace */,
+				BF7CEDC3132E76C8004C6B50 /* Frameworks */,
+				BF7CEDC1132E76C8004C6B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF7CEDC1132E76C8004C6B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF7CEDC0132E76C8004C6B50 /* HappyFace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF7CEDC3132E76C8004C6B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF7CEDC4132E76C8004C6B50 /* Cocoa.framework */,
+				BF7CEDC6132E76C8004C6B50 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF7CEDC6132E76C8004C6B50 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF7CEDC7132E76C8004C6B50 /* AppKit.framework */,
+				BF7CEDC8132E76C8004C6B50 /* CoreData.framework */,
+				BF7CEDC9132E76C8004C6B50 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BF7CEDCA132E76C8004C6B50 /* HappyFace */ = {
+			isa = PBXGroup;
+			children = (
+				BF7CEDD6132E76C9004C6B50 /* HappyFaceAppDelegate.h */,
+				BF7CEDD7132E76C9004C6B50 /* HappyFaceAppDelegate.m */,
+				BF7CEDD9132E76C9004C6B50 /* MainMenu.xib */,
+				BF7CEDCB132E76C8004C6B50 /* Supporting Files */,
+			);
+			path = HappyFace;
+			sourceTree = "<group>";
+		};
+		BF7CEDCB132E76C8004C6B50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF7CEDCC132E76C8004C6B50 /* HappyFace-Info.plist */,
+				BF7CEDCD132E76C9004C6B50 /* InfoPlist.strings */,
+				BF7CEDD0132E76C9004C6B50 /* HappyFace-Prefix.pch */,
+				BF7CEDD1132E76C9004C6B50 /* main.m */,
+				BF7CEDD3132E76C9004C6B50 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF7CEDBF132E76C8004C6B50 /* HappyFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7CEDDE132E76C9004C6B50 /* Build configuration list for PBXNativeTarget "HappyFace" */;
+			buildPhases = (
+				BF7CEDBC132E76C8004C6B50 /* Sources */,
+				BF7CEDBD132E76C8004C6B50 /* Frameworks */,
+				BF7CEDBE132E76C8004C6B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyFace;
+			productName = HappyFace;
+			productReference = BF7CEDC0132E76C8004C6B50 /* HappyFace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF7CEDB7132E76C8004C6B50 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = BF7CEDBA132E76C8004C6B50 /* Build configuration list for PBXProject "HappyFace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF7CEDB5132E76C8004C6B50;
+			productRefGroup = BF7CEDC1132E76C8004C6B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF7CEDBF132E76C8004C6B50 /* HappyFace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF7CEDBE132E76C8004C6B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7CEDCF132E76C9004C6B50 /* InfoPlist.strings in Resources */,
+				BF7CEDD5132E76C9004C6B50 /* Credits.rtf in Resources */,
+				BF7CEDDB132E76C9004C6B50 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF7CEDBC132E76C8004C6B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7CEDD2132E76C9004C6B50 /* main.m in Sources */,
+				BF7CEDD8132E76C9004C6B50 /* HappyFaceAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF7CEDCD132E76C9004C6B50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7CEDCE132E76C9004C6B50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF7CEDD3132E76C9004C6B50 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7CEDD4132E76C9004C6B50 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BF7CEDD9132E76C9004C6B50 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7CEDDA132E76C9004C6B50 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF7CEDDC132E76C9004C6B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF7CEDDD132E76C9004C6B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF7CEDDF132E76C9004C6B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyFace/HappyFace-Prefix.pch";
+				INFOPLIST_FILE = "HappyFace/HappyFace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF7CEDE0132E76C9004C6B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HappyFace/HappyFace-Prefix.pch";
+				INFOPLIST_FILE = "HappyFace/HappyFace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF7CEDBA132E76C8004C6B50 /* Build configuration list for PBXProject "HappyFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7CEDDC132E76C9004C6B50 /* Debug */,
+				BF7CEDDD132E76C9004C6B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7CEDDE132E76C9004C6B50 /* Build configuration list for PBXNativeTarget "HappyFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7CEDDF132E76C9004C6B50 /* Debug */,
+				BF7CEDE0132E76C9004C6B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF7CEDB7132E76C8004C6B50 /* Project object */;
+}
