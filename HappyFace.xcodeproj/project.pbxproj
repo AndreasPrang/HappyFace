@@ -7,28 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF177C45132FA71E005CF2D1 /* Apple.gif in Resources */ = {isa = PBXBuildFile; fileRef = BF177C44132FA71E005CF2D1 /* Apple.gif */; };
+		BF177C57132FD94A005CF2D1 /* OverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF177C56132FD94A005CF2D1 /* OverlayController.m */; };
 		BF7CEDC5132E76C8004C6B50 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7CEDC4132E76C8004C6B50 /* Cocoa.framework */; };
 		BF7CEDCF132E76C9004C6B50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF7CEDCD132E76C9004C6B50 /* InfoPlist.strings */; };
 		BF7CEDD2132E76C9004C6B50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CEDD1132E76C9004C6B50 /* main.m */; };
 		BF7CEDD5132E76C9004C6B50 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BF7CEDD3132E76C9004C6B50 /* Credits.rtf */; };
 		BF7CEDD8132E76C9004C6B50 /* HappyFaceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CEDD7132E76C9004C6B50 /* HappyFaceAppDelegate.m */; };
 		BF7CEDDB132E76C9004C6B50 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7CEDD9132E76C9004C6B50 /* MainMenu.xib */; };
+		BF7CEDE2132E7728004C6B50 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7CEDE1132E7728004C6B50 /* QTKit.framework */; };
+		BF7CEDE5132E77B2004C6B50 /* MyRecorderController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CEDE4132E77B2004C6B50 /* MyRecorderController.m */; };
+		BFD70C01132F8AE1002FFEEA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD70C00132F8AE1002FFEEA /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF177C44132FA71E005CF2D1 /* Apple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Apple.gif; sourceTree = "<group>"; };
+		BF177C55132FD94A005CF2D1 /* OverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayController.h; sourceTree = "<group>"; };
+		BF177C56132FD94A005CF2D1 /* OverlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayController.m; sourceTree = "<group>"; };
 		BF7CEDC0132E76C8004C6B50 /* HappyFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF7CEDC4132E76C8004C6B50 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BF7CEDC7132E76C8004C6B50 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		BF7CEDC8132E76C8004C6B50 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		BF7CEDC9132E76C8004C6B50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		BF7CEDCC132E76C8004C6B50 /* HappyFace-Info.plist */ = {isa = PBXFileReference; path = "HappyFace-Info.plist"; sourceTree = "<group>"; };
+		BF7CEDCC132E76C8004C6B50 /* HappyFace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappyFace-Info.plist"; sourceTree = "<group>"; };
 		BF7CEDCE132E76C9004C6B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BF7CEDD0132E76C9004C6B50 /* HappyFace-Prefix.pch */ = {isa = PBXFileReference; path = "HappyFace-Prefix.pch"; sourceTree = "<group>"; };
+		BF7CEDD0132E76C9004C6B50 /* HappyFace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HappyFace-Prefix.pch"; sourceTree = "<group>"; };
 		BF7CEDD1132E76C9004C6B50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF7CEDD4132E76C9004C6B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		BF7CEDD6132E76C9004C6B50 /* HappyFaceAppDelegate.h */ = {isa = PBXFileReference; path = HappyFaceAppDelegate.h; sourceTree = "<group>"; };
+		BF7CEDD6132E76C9004C6B50 /* HappyFaceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappyFaceAppDelegate.h; sourceTree = "<group>"; };
 		BF7CEDD7132E76C9004C6B50 /* HappyFaceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappyFaceAppDelegate.m; sourceTree = "<group>"; };
 		BF7CEDDA132E76C9004C6B50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BF7CEDE1132E7728004C6B50 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		BF7CEDE3132E77B2004C6B50 /* MyRecorderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRecorderController.h; sourceTree = "<group>"; };
+		BF7CEDE4132E77B2004C6B50 /* MyRecorderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRecorderController.m; sourceTree = "<group>"; };
+		BFD70C00132F8AE1002FFEEA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD70C01132F8AE1002FFEEA /* QuartzCore.framework in Frameworks */,
+				BF7CEDE2132E7728004C6B50 /* QTKit.framework in Frameworks */,
 				BF7CEDC5132E76C8004C6B50 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +60,8 @@
 		BF7CEDB5132E76C8004C6B50 = {
 			isa = PBXGroup;
 			children = (
+				BFD70C00132F8AE1002FFEEA /* QuartzCore.framework */,
+				BF7CEDE1132E7728004C6B50 /* QTKit.framework */,
 				BF7CEDCA132E76C8004C6B50 /* HappyFace */,
 				BF7CEDC3132E76C8004C6B50 /* Frameworks */,
 				BF7CEDC1132E76C8004C6B50 /* Products */,
@@ -82,10 +98,15 @@
 		BF7CEDCA132E76C8004C6B50 /* HappyFace */ = {
 			isa = PBXGroup;
 			children = (
+				BF177C44132FA71E005CF2D1 /* Apple.gif */,
 				BF7CEDD6132E76C9004C6B50 /* HappyFaceAppDelegate.h */,
 				BF7CEDD7132E76C9004C6B50 /* HappyFaceAppDelegate.m */,
 				BF7CEDD9132E76C9004C6B50 /* MainMenu.xib */,
 				BF7CEDCB132E76C8004C6B50 /* Supporting Files */,
+				BF7CEDE3132E77B2004C6B50 /* MyRecorderController.h */,
+				BF7CEDE4132E77B2004C6B50 /* MyRecorderController.m */,
+				BF177C55132FD94A005CF2D1 /* OverlayController.h */,
+				BF177C56132FD94A005CF2D1 /* OverlayController.m */,
 			);
 			path = HappyFace;
 			sourceTree = "<group>";
@@ -152,6 +173,7 @@
 				BF7CEDCF132E76C9004C6B50 /* InfoPlist.strings in Resources */,
 				BF7CEDD5132E76C9004C6B50 /* Credits.rtf in Resources */,
 				BF7CEDDB132E76C9004C6B50 /* MainMenu.xib in Resources */,
+				BF177C45132FA71E005CF2D1 /* Apple.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +186,8 @@
 			files = (
 				BF7CEDD2132E76C9004C6B50 /* main.m in Sources */,
 				BF7CEDD8132E76C9004C6B50 /* HappyFaceAppDelegate.m in Sources */,
+				BF7CEDE5132E77B2004C6B50 /* MyRecorderController.m in Sources */,
+				BF177C57132FD94A005CF2D1 /* OverlayController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +302,7 @@
 				BF7CEDE0132E76C9004C6B50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
