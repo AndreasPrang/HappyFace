@@ -148,6 +148,9 @@
 /* Begin PBXProject section */
 		BF7CEDB7132E76C8004C6B50 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = BF7CEDBA132E76C8004C6B50 /* Build configuration list for PBXProject "HappyFace" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
